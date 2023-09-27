@@ -44,6 +44,9 @@ public class Main {
 		       a.tuString();
 		       }
 		       break;
+		       case 3:
+		    	   System.out.println("Adios");
+		    	   break;
 		       }
 		       }while(op!=3);
 		  
