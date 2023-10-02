@@ -10,7 +10,6 @@ import javax.swing.border.SoftBevelBorder;
 import javax.swing.border.BevelBorder;
 import java.awt.Color;
 import javax.swing.JRadioButton;
-import com.jgoodies.forms.factories.DefaultComponentFactory;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
