@@ -22,7 +22,7 @@ public class Hola {
 		this.nombre=nombre;
 		initialize();
 		lblHola.setText("   hola "+nombre);
-		Thread hilo1=new Thread (new Runnable() {
+		Thread hilo=new Thread (new Runnable() {
 
 			
 			public void run() {
@@ -35,8 +35,8 @@ public class Hola {
 							e.printStackTrace();
 						}
 					if(i==100) {
-						Hola Hola=new Hola(nombre);
-						Hola.frmHola.show(true);
+						HolaD Hola=new HolaD(nombre);
+						Hola.frmHolaD.show(true);
 						frmHola.show(false);
 					}
 				}
@@ -45,7 +45,7 @@ public class Hola {
 				
 				
 			});
-		hilo1.start();
+		hilo.start();
 		
 		BarraProgreso1 = new JProgressBar();
 		BarraProgreso1.setStringPainted(true);

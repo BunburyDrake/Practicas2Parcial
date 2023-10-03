@@ -17,7 +17,7 @@ import java.awt.event.ActionEvent;
 
 public class BarraProgreso {
 
-	private JFrame frmBarraProgreso;
+	 JFrame frmBarraProgreso;
 	private JProgressBar BarrarProgreso;
 	private JButton btnStart;
 String nombre="";
