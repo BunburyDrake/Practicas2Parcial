@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
 import java.awt.BorderLayout;
+import java.awt.Toolkit;
 
 public class HolaD {
 
@@ -58,6 +59,8 @@ Thread hilo=new Thread (new Runnable() {
 	 */
 	private void initialize() {
 		frmHolaD = new JFrame();
+		frmHolaD.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Alumno\\Downloads\\6.png"));
+		frmHolaD.setTitle("3erVentana");
 		frmHolaD.setBounds(100, 100, 450, 300);
 		frmHolaD.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmHolaD.getContentPane().setLayout(null);
